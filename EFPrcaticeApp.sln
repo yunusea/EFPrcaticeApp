@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EEEC2BEA-3598-4183-B1C2-04AC9449C3A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFPracticeApp.WebApi", "src\EFPracticeApp.WebApi\EFPracticeApp.WebApi.csproj", "{F5F18576-4E81-4595-8AA0-58C94EFB22D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFPracticeApp.Data", "EFPracticeApp.Data\EFPracticeApp.Data.csproj", "{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F18576-4E81-4595-8AA0-58C94EFB22D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F18576-4E81-4595-8AA0-58C94EFB22D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F18576-4E81-4595-8AA0-58C94EFB22D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F18576-4E81-4595-8AA0-58C94EFB22D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5F18576-4E81-4595-8AA0-58C94EFB22D0} = {EEEC2BEA-3598-4183-B1C2-04AC9449C3A4}
+		{0F0DE8C9-EAAD-42FA-AE5A-8A91C2072765} = {EEEC2BEA-3598-4183-B1C2-04AC9449C3A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74A0E074-1B03-42D4-A949-9A9DE50589CA}
+	EndGlobalSection
+EndGlobal
